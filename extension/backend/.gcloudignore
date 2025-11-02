@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development
+.env
+*.log
+
+# Testing
+test_*.py
+*_test.py
+*.ipynb
+
+# Documentation (optional, keep if needed in production)
+*.md
+!README.md
+
+# Other
+.git/
+.gitignore
+deploy.sh
+deploy.bat
+fix_*.py
